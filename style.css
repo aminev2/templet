@@ -1,0 +1,918 @@
+<style>
+  body{
+	background: #eee;
+	direction: rtl;
+	font-family: Droid Arabic Kufi;
+}
+
+  :root{
+	font-family: &#39;Changa&#39;, sans-serif;
+}
+
+a {
+    color: #555;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+  li{
+	list-style: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+i {
+	transition: all 0.3s;
+}
+
+i:hover {
+    color: #1fdab5;
+}
+
+a i:hover {
+    color: #1fdab5;
+}
+
+.menu, .top {
+    font-family: changa;
+}
+
+span.post-backlinks.post-comment-link {
+    display: none;
+}
+
+aside {
+    margin-right: -20px;
+}
+	
+.feed-links {
+    display: none;
+}
+
+img.icon-action {
+    display: none;
+}
+
+  .container{
+	max-width: 960px;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.box {
+    background: #fff;
+    border: solid 1px #e1e1e1;
+    padding: 0 10px;
+	margin-top: 10px;
+	
+}
+
+  .clear{
+	clear: both;
+}
+
+.top {
+	margin-top: 10px;
+	height: 40px;
+}
+
+.top a {
+    float: right;
+    padding: 10px;
+	padding-right: 0;
+    font-size: 13px;
+}
+
+.top-social {
+    float: left;
+	margin-top: 8px;
+}
+
+.top-social i {
+    font-size: 18px;
+    color: #555;
+	margin-right: 10px;
+}
+
+  .top-social a{
+	padding: 0;
+}
+
+.logo {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+.pub {
+    float: left;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*=========//Slider//=========*/
+p.flex-caption {
+    font-family: changa;
+    font-size: 15px;
+    color: #fff;
+    background: #1abc9c;
+    position: absolute;
+    bottom: 20px;
+}
+
+.flex-caption span {
+    height: 40px;
+}
+
+.flex-control-nav {
+    display:none;
+}
+
+.flex-caption {
+    height: 40px !important;
+}
+
+.flex-caption span {
+    height: 40px !important;
+}
+
+.flex-direction-nav a, .flex-direction-nav a:before {
+    color: rgb(26, 188, 156) !important;
+    text-shadow: none !important;
+}
+
+#slider1 {
+    margin-top: 10px;
+}
+
+.flexslider {
+    margin: 0 auto 0px auto !important;
+	padding: 0 !important;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+    right: 20px !important;
+}
+
+/*=========//Slider//=========*/
+
+
+/*=========//Navbar//=========*/
+
+.menu li {
+    float: right;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu li{
+    padding: 10px 0px;
+}
+
+.menu li a{
+    padding: 7px 13px;
+	transition: all 0.3s;
+}
+
+.menu li a:hover {
+	background: #1abc9c !important;
+	color: #fff !important;
+}
+
+.menu li:nth-child(1) {
+    background: #1abc9c;
+    margin-right: -10px;
+    position: relative;
+	padding: 0px;
+	height: 40px;
+	width: 70px;
+}
+
+.menu li a:nth-child(1):hover {
+    background: none;
+}
+
+i.ion-android-home {
+    color: #fff;
+    position: absolute;
+    font-size: 30px;
+    right: 23px;
+    top: 0px;
+}
+/*=========//Navbar//=========*/
+
+
+/*=========//Post//=========*/
+
+.post.hentry {
+    position: relative;
+}
+
+.post-title {
+    font-family: changa;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+span.posts-thumb {
+	margin-right: -10px;
+	margin-top: -8px;
+}
+
+.post-header {
+    padding-top: 7px;
+}
+
+.line, .line2 {
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+}
+
+.line {
+    top: 37px;
+    width: 65.5%;
+    left: -10px;
+}
+
+.line2 {
+    bottom: 31px;
+    width: 65.5%;
+    left: -10px;
+}
+
+.post-outer {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #555;
+    font-family: .post-outer;
+}
+
+a.read-more {
+	font-family: changa;
+    padding: 3px 4px;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    border-right: solid 1px;
+}
+
+a.read-more {
+    padding: 7px 10px;
+    font-size: 12px;
+    position: absolute;
+    left: -10px;
+    bottom: 0px;
+    border-right: solid 1px #d9d9d9;
+	transition: all 0.3s;
+}
+
+a.read-more:hover {
+    background: #1abc9c;
+    color: #fff;
+}
+
+.ion-person, .ion-android-time {
+    position: absolute;
+    font-size: 14px;
+	bottom: 5px;
+}
+
+i.ion-android-time {
+    right: 328px;
+}
+
+a.g-profile {
+    position: absolute;
+    right: 245px;
+    bottom: 7px;
+    font-size: 12px;
+}
+
+a.timestamp-link {
+    position: absolute;
+    bottom: 7px;
+    right: 345px;
+    font-size: 12px;
+}
+
+.post-footer-line {
+    height: 0px;
+}
+
+.post-title a {
+	background: #1abc9c;
+    color: #fff;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    padding-right: 10px;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+
+h2.date-header {
+    position: absolute !important;
+    border: none !important;
+    font-size: 12px !important;
+    padding: 10px 10px !important;
+    right: 27px !important;
+	background: none !important;
+    color: #1abc9c !important;
+}
+
+.post-title {
+    position: static;
+	margin-top: 30px;
+	margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.entry-content img:nth-child(1) {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.entry-content div {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.avatar-author img {
+    width: 70px !important;
+    height: 70px;
+    padding: 0 !important;
+}
+
+a.g-profile {
+    display: none;
+}
+
+a.timestamp-link {
+    display: none;
+}
+
+.avatar-author {
+    background: #1abc9c;
+    height: 50px;
+	border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+	margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar-author img {
+    width: 70px !important;
+    height: 70px;
+    margin-top: -10px;
+    margin-right: -20px !important;
+	float: right;
+}
+
+.avatar-author h5 {
+    color: #fff;
+    margin-top: 17px;
+    float: right;
+    margin-right: 10px;
+}
+
+.button-share {
+    margin-bottom: 20px;
+}
+
+.post-comment-link {
+    display: none;
+}
+
+</b:if>
+
+/*=========//Post//=========*/
+
+/*=========//Search//=========*/
+
+.search {
+    background: #fff;
+    height: 40px;
+    border: solid 1px #1abc9c;
+	position: relative;
+    margin-top: 10px;
+}
+
+.gsc-control-cse {
+    padding: 0 !important;
+}
+
+td#gs_tti50 {
+    padding: 0;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+    padding-right: 0 !important;
+}
+table.gsc-search-box td.gsc-input {
+    padding-right: 0 !important; 
+}
+
+input#gsc-i-id1 {
+    height: 34px !important;
+}
+
+table.gsc-search-box td.gsc-input {
+    padding-right: 0px !important;
+}
+
+.gsc-search-button-v2 {
+    height: 23px !important;
+    padding: 6px 19px !important;
+    margin-top: 0px !important;
+}
+
+table.gsc-search-box td.gsc-input {
+    padding-left: 0px !important;
+}
+
+i.ion-search {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    font-size: 27px;
+    width: 38px;
+}
+
+i.ion-ios-search {
+    position: absolute;
+    color: #1abc9c;
+    font-size: 25px;
+    padding: 2px 11px;
+    left: 0px;
+    border-right: solid 1px;
+}
+/*=========//Search//=========*/
+ 
+
+
+
+/*=========//Pub//=========*/
+
+.pub-sidebar {
+    padding: 10px;
+    background: #fff;
+    margin-top: 10px;
+    border: solid 1px #e1e1e1;
+}
+
+
+/*=========//Pub//=========*/
+
+
+/*=========//About me//=========*/
+
+.about-me.box {
+    position: relative;
+}
+
+.about-me h4 {
+    border: solid 1px #1abc9c;
+    background: #1abc9c;
+    margin: 0;
+    margin-right: -11px;
+    margin-left: -11px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about-me img {
+    width: 69px;
+    height: 69px;
+    border: solid 2px #1abc9c;
+    border-radius: 100%;
+    margin-top: -42px;
+}
+
+.about-me p {
+    line-height: 22px;
+    font-size: 13px;
+	font-family: Droid Arabic Kufi;
+}
+
+.subscribe-youtube {
+    color: #ffffff;
+    background: #cc181e;
+    position: relative;
+    border: solid 1px;
+    margin: 0 -11px;
+    padding: 0 10px;
+}
+
+.subscribe-youtube p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.subscribe-youtube p:nth-child(2) {
+    font-size: 17px;
+}
+
+i.ion-social-youtube-outline {
+    font-size: 45px;
+    position: absolute;
+    top: -1px;
+    left: 8px;
+}
+/*=========//About me//=========*/
+
+/*=========//Popular post//=========*/
+
+.widget h2 {
+    border: solid 1px #1abc9c;
+	background: #1abc9c;
+    margin: 0;
+    margin-right: -11px;
+    margin-left: -11px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.PopularPosts .item-thumbnail {
+    float: right;
+    margin: 0;
+}
+
+.popular-posts ul {
+    padding: 0;
+	margin-bottom: 0;
+}
+
+.PopularPosts .widget-content ul li {
+    padding: 0 !important;
+	padding-bottom: 10px !important;
+}
+
+.item-thumbnail a img {
+    width: 70px;
+    height: 55px;
+	padding: 0;
+    margin-left: 10px;
+}
+/*=========//Popular post//=========*/
+
+/*=========//Footer//=========*/
+
+footer {
+    background: #1abc9c;
+    color: #fff;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+footer i {
+    font-size: 22px;
+    margin-left: 5px;
+	color: #fff;
+}
+
+footer p {
+    font-family: Droid Arabic Kufi;
+}
+
+footer h4 {
+    border-bottom: solid 1px;
+    padding-bottom: 15px;
+}
+
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit {
+    border-radius: 0px;
+    background: #fff;
+    color: #555;
+    font-family: changa;
+	height: 40px;
+    border: solid 1px #fff;
+	margin-top: 7px;
+}
+
+input.follow-by-email-address::-webkit-input-placeholder {
+    font-family: changa;
+	padding-right: 10px;
+	color:#fff
+}
+
+input.follow-by-email-address:-moz-placeholder {
+    font-family: changa;
+	padding-right: 10px;
+	color:#fff
+}
+
+.FollowByEmail .follow-by-email-inner .follow-by-email-address {
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+	background: none;
+    border: solid 1px;
+	    margin-top: 7px;
+}
+
+.end {
+    background: #1fdab5;
+    padding: 5px 0;
+}
+
+.end a:nth-child(1) {
+    float: right;
+}
+
+.end a:nth-child(2) {
+    float: left;
+}
+
+.end a {
+    color: #fff;
+    font-size: 10px;
+}
+
+/*=========//Footer//=========*/
+
+/*=========//Pagination//=========*/
+#blog-pager{clear:both;margin:30px auto;text-align:center; padding: 7px;}
+.blog-pager {background: none;}
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 5px 12px;margin-right:5px; color: #666; background-color:#fff;}
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#1abc9c;text-decoration:none;color: #fff;}
+#blog-pager .pagecurrent{font-weight:bold;color: #fff;background:#1abc9c;}
+ .showpageOf{display:none!important}
+#blog-pager .pages{border:none;}
+/*=========//Pagination//=========*/
+
+
+/* CSS Related Posts Ar1web */
+#at-picture{background:#F9F9F9;padding:12px;margin:6px 0 0;border:1px solid #f2f2f2;overflow:hidden}
+#at-picture h2{font-family:Electrolize,ge_ss_tvbold;font-weight:700;font-size:15px;color: #e74c3c;}
+#at-picture a{background:#FFFFFF;font-family:Electrolize,ge_dinar_oneregular;color:#716F6F;box-shadow:0 2px 2px #f0f0f0;overflow:hidden;text-align:center;font-size:12px;font-weight:400;border:1px solid #f8f8f8;text-decoration:none;margin:0 7px 5px 0;padding:6px;float:right}
+#at-picture a img{width:100px;height:98px}.box-related{width:100px;padding-left:3px;height:50px;border:0 none;margin:0 0 5px;padding:0;line-height:normal;font-stretch:normal}#at-picture a:last-child{margin-right:0}
+#at-picture a:nth-child(1):hover{box-shadow:0 -3px 0 #E50700 inset}#at-picture a:nth-child(2):hover{box-shadow:0 -3px 0 #0084C5 inset}#at-picture a:nth-child(3):hover{box-shadow:0 -3px 0 #6CAC00 inset}#at-picture a:nth-child(4):hover{box-shadow:0 -3px 0 #00C3B7 inset}#at-picture a:nth-child(5):hover{box-shadow:0 -3px 0 #FF8168 inset}#at-picture a:hover{box-shadow:0 -3px 0 #FF8168 inset}#at-picture a:nth-child(1):hover,#at-picture a:nth-child(2):hover,#at-picture a:nth-child(3):hover,#at-picture a:nth-child(4):hover,#at-picture a:nth-child(5):hover,#at-picture a:hover{background:#fff}#at-picture img{width:100%;margin:0;padding:0}#posting{width:auto!important;max-width:100%;margin:15px 20px 15px 0}
+
+
+</style>
+
+<!-- BloggerDynamicSlider Basic CSS -->
+<style type='text/css'>
+/**
+ *  jQuery BloggerDynamicSlider v1.0.0
+ *  Copyright 2016 http://shuvojitdas.com
+ *  Contributing Author: Shuvojit Das
+ *  Plugin URL: https://github.com/shuvojit33/blogger-dynamic-slider
+ *
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url(&quot;https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.min.css&quot;);
+
+/* Preloader */
+
+.flexslider.loading:after {
+    content: &#39;&#39;;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://lh3.googleusercontent.com/-WWve06d4dB4/Vq28tN4LMUI/AAAAAAAAFcM/k8IQajpDnS4/h120/loader.gif) no-repeat center center;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+}
+
+.flexslider.loading ul.flex-direction-nav,
+.flexslider.loading ol,
+.loading .flex-caption {
+    display: none;
+}
+
+.flexslider {
+    border: 1px solid #e1e1e1;
+    padding: 4px;
+    margin: 0 auto 60px auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.flexslider a {
+    text-decoration: none;
+}
+
+
+/* Caption/Post Title */
+
+.flex-caption {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 60px;
+    background: #FFFFFF;
+    color: #1C1C1C;
+    font-family: &#39;Open Sans&#39;, sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flex-caption span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+}
+
+.flex-caption.overlayDark,
+.flex-caption.overlayLight {
+    margin-bottom: -60px;
+    bottom: 60px;
+    position: relative;
+}
+
+.flex-caption.overlayDark {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.flex-caption.overlayLight {
+    background: rgba(255, 255, 239, 0.9);
+    color: #000;
+}
+
+ul.slides li a {
+    display: block;
+    overflow: hidden;
+}
+
+
+/* blogger css conflicts fix */
+
+.flexslider ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: initial !important;
+}
+
+.flexslider ul.flex-direction-nav li {
+    margin: 0;
+    padding: 0;
+    line-height: initial;
+}
+
+.flexslider ul li {
+    margin-bottom: 0 !important;
+}
+
+.flexslider img {
+    padding: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+ul.flex-direction-nav {
+    position: static;
+}
+
+ul.flex-direction-nav li {
+    position: static;
+}
+
+.error {
+    font-family: monospace, sans-serif;
+}
+
+@media (max-width: 600px) {
+    .flex-caption {
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+
+.container {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+
+.logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 100%;
+}
+
+.pub, .about-me, .pub-sidebar, .popular-post {
+	display:none;
+}
+
+span.posts-thumb img {
+    width: 120px;
+    height: 110px;
+}
+
+.read-more, .line2, .g-profile, .ion-android-time, .timestamp-link, .ion-person, .menu li:nth-child(1){
+	display:none;
+}
+
+p.flex-caption {
+    bottom: 0px;
+	font-size: 10px;
+}
+
+.post-outer {
+    padding-bottom: 10px;
+}
+
+.menu li {
+    padding: 10px 0px;
+    float: none;
+    text-align: center;
+    margin: 0 -10px;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.menu li a:hover {
+    background: none !important;
+	color: #555 !important;
+}
+
+.search {
+    float: left;
+    width: 95%;
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+.top-social{
+	display: none;
+}
+
+
+}
+
+
+/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: &#39;Droid Arabic Kufi&#39;;
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format(&#39;embedded-opentype&#39;),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format(&#39;woff2&#39;),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format(&#39;woff&#39;),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format(&#39;truetype&#39;);
+}
+@font-face {
+  font-family: &#39;Droid Arabic Kufi&#39;;
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format(&#39;embedded-opentype&#39;),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format(&#39;woff2&#39;),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format(&#39;woff&#39;),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format(&#39;truetype&#39;);
+}
+</style>

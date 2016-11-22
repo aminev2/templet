@@ -669,10 +669,9 @@ input.follow-by-email-address:-moz-placeholder {
 #at-picture a:nth-child(1):hover{box-shadow:0 -3px 0 #E50700 inset}#at-picture a:nth-child(2):hover{box-shadow:0 -3px 0 #0084C5 inset}#at-picture a:nth-child(3):hover{box-shadow:0 -3px 0 #6CAC00 inset}#at-picture a:nth-child(4):hover{box-shadow:0 -3px 0 #00C3B7 inset}#at-picture a:nth-child(5):hover{box-shadow:0 -3px 0 #FF8168 inset}#at-picture a:hover{box-shadow:0 -3px 0 #FF8168 inset}#at-picture a:nth-child(1):hover,#at-picture a:nth-child(2):hover,#at-picture a:nth-child(3):hover,#at-picture a:nth-child(4):hover,#at-picture a:nth-child(5):hover,#at-picture a:hover{background:#fff}#at-picture img{width:100%;margin:0;padding:0}#posting{width:auto!important;max-width:100%;margin:15px 20px 15px 0}
 
 
-</style>
+
 
 <!-- BloggerDynamicSlider Basic CSS -->
-<style type='text/css'>
 /**
  *  jQuery BloggerDynamicSlider v1.0.0
  *  Copyright 2016 http://shuvojitdas.com
@@ -915,4 +914,6 @@ p.flex-caption {
        url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format(&#39;woff&#39;),
        url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format(&#39;truetype&#39;);
 }
+
+
 </style>
